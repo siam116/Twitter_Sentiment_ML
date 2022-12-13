@@ -4,10 +4,10 @@
 # In[21]:
 
 
-#!pip install pandas
-#!pip install seaborn
-#!pip install wordcloud
-#!pip install nltk
+!pip install pandas
+!pip install seaborn
+!pip install wordcloud
+!pip install nltk
 
 
 # In[22]:
