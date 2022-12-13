@@ -32,7 +32,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import confusion_matrix, classification_report
-from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
+from streamlit.scriptrunner.script_run_context import get_script_run_ctx
 
 
 # In[23]:
