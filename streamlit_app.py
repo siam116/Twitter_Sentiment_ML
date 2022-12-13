@@ -37,8 +37,8 @@ from sklearn.metrics import confusion_matrix, classification_report
 # In[23]:
 
 
-df = pd.read_csv("https://github.com/siam116/Twitter_Sentiment_ML/blob/main/Ukraine_10K_tweets_sentiment_analysis.csv")
-
+df = pd.read_csv("https://github.com/siam116/Twitter_Sentiment_ML/blob/main/Ukraine_10K_tweets_sentiment_analysis.csv", error_bad_lines=False)
+#pd.read_csv("file1.csv", error_bad_lines=False)
 
 # In[24]:
 
