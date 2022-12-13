@@ -1,6 +1,6 @@
 numpy>=1.16.4
 pandas>=1.1.4
 seaborn>=0.11.1
-wordcloud>=1.7.0
-nltk>=3.5.0
-sklearn>=0.24.0
+wordcloud>=1.8.2.2
+nltk>=3.8
+sklearn>=0.0
